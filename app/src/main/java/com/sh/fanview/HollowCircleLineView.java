@@ -67,6 +67,7 @@ public class HollowCircleLineView extends View {
         textPaint.setColor(Color.parseColor("#000000"));
 
 
+
         circularPoint = new Paint();
         circularPoint.setAntiAlias(true);
         circularPoint.setStyle(Paint.Style.FILL);
