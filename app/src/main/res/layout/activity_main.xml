@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <com.sh.fanview.FanChartView
+        android:id="@+id/fcView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+    <com.sh.fanview.HollowCircleView
+        android:id="@+id/hcView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+    <com.sh.fanview.HollowCircleLineView
+        android:id="@+id/hclView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>
